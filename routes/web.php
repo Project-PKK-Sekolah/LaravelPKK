@@ -19,3 +19,7 @@ Route::get('/', function () {
 
 Route::get('/data-global', 'InfoCoronaController@global')->name('global');
 Route::get('/data-indonesia', 'InfoCoronaController@indonesia')->name('indonesia');
+
+Route::get('/test', function () {
+    return view('landing-page');
+});
