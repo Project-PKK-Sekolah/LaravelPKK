@@ -24,7 +24,7 @@
         <a href="#" class="nav-link">About Us</a>
       </li>
     </ul>
-    <form class="form-inline my-2  mx-2">
+    <form class="">
       <button class="btn btn-light rounded-pill my-2 px-5 my-sm-0" type="submit">Login</button>
     </form>
   </div>

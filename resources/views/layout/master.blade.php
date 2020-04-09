@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Property</title>
     <link rel="icon" href="{{ URL::asset('/img/smk.png') }}" type="image/x-icon"/>
-    <!--MDBootstrap-->
-    <link rel="stylesheet" type="text/css" href="{{ URL::asset('/css/mdb.min.css') }}">
-    <!--SBAdmin-->
-    <link rel="stylesheet" type="text/css" href="{{ URL::asset('/css/sb-admin-2.css') }}">
+    @yield('bootstrap')
+    
     <!--Fontawesome-->
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('/fontawesome-free/css/all.min.css') }}">
-    
+    <style>
+        .card-img-top {
+            width: 100%;
+            height: 15vw;
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body class="bg-light">
     

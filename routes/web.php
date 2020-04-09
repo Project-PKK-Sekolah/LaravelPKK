@@ -17,9 +17,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/data-global', 'InfoCoronaController@global')->name('global');
-Route::get('/data-indonesia', 'InfoCoronaController@indonesia')->name('indonesia');
-
 Route::get('/test', function () {
     return view('landing-page');
+});
+
+Route::get('/submit-property', function () {
+    return view('submit-property');
+});
+
+Route::get('/home-quest', function () {
+    return view('home-quest');
 });

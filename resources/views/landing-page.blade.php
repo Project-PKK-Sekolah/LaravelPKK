@@ -1,6 +1,12 @@
 @extends('layout.master')
 
-    
+@section('bootstrap')
+    <!--MDBootstrap-->
+    <link rel="stylesheet" type="text/css" href="{{ URL::asset('/css/mdb.min.css') }}">
+    <!--SBAdmin-->
+    <link rel="stylesheet" type="text/css" href="{{ URL::asset('/css/sb-admin-2.css') }}">
+@endsection
+
 
 @section('content')
 <div>
